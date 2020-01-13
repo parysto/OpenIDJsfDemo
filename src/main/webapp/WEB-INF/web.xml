@@ -52,7 +52,7 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Auth Callback</web-resource-name>
-            <url-pattern>/api/auth/callback</url-pattern>
+            <url-pattern>/callback.xhtml</url-pattern>
         </web-resource-collection>
     </security-constraint>
     
