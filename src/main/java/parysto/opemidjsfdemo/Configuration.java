@@ -15,7 +15,8 @@ import javax.ws.rs.ApplicationPath;
                 callerNameClaim = "name",
                 callerGroupsClaim = "roles"
         ),
-        tokenAutoRefresh = true
+        tokenAutoRefresh = true,
+        tokenMinValidity = 50 * 1000
 )
 @FacesConfig(version = FacesConfig.Version.JSF_2_3)
 @ApplicationPath("api")
